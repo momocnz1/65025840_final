@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <div id="block1">
+         <p style="font-size: 30px; text-align: center;" id="main">Insert data</p>
+         <label for="name">Name</label><br> 
+         <input type="text" id="name" onclick="name()"><br>
+         <label for="Surname">Surname</label><br>
+         <input type="text" id="Surname" onclick="Surname()"><br>
+         <label for="Gender" >Gender</label><br>
+         <input type="text" id="Gender" onchange="Birth()"><br>
+         <label for="Birth">Birth Date</label><br>
+         <input type="text" id="Birth" ><br>
+         <button onclick="add()">add</button>
+    </div>
+    <div>
+        <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Gender</th>
+                <th>Birth date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="in"></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    <script src="j.js"></script>
+</body>
+</html>

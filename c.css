@@ -1,0 +1,26 @@
+#block1{
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 2px;
+    background-color: #ff634d;
+    margin: auto;
+}
+#main{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+table , th{
+    margin: auto;
+    width: 300;
+    border: 1px solid rgb(98, 94, 94);
+    border-collapse: collapse;
+    background-color: #ABA0A0;
+}
+th{
+    padding: 0px;
+    text-align: center;
+}
+#name{
+    margin: auto;
+}
