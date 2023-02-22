@@ -11,14 +11,18 @@
     <div id="block1">
          <p style="font-size: 30px; text-align: center;" id="main">Insert data</p>
          <label for="name">Name</label><br> 
-         <input type="text" id="name" onclick="name()"><br>
+         <input type="text" id="name" onchange="name()"><br>
          <label for="Surname">Surname</label><br>
-         <input type="text" id="Surname" onclick="Surname()"><br>
+         <input type="text" id="Surname" onchange="Surname()"><br>
          <label for="Gender" >Gender</label><br>
-         <input type="text" id="Gender" onchange="Birth()"><br>
+         <select name="" id="Gender" onchange="Gender()"><br>
+         <option value="Complicate">Complicate</option>
+         <option value="Male">Male</option>
+         <option value="Female">Female</option>
+         </select><br>
          <label for="Birth">Birth Date</label><br>
-         <input type="text" id="Birth" ><br>
-         <button onclick="add()">add</button>
+         <input type="text" id="Birth"onchange="Birth()" ><br>
+         <button onclick="add()" id="add">add</button>
     </div>
     <div>
         <table>
